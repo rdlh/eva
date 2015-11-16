@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  height: 100%;
+}
+
+body, p{
+  margin:0;
+  padding:0;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.orange{
+  color: #c86762;
+}
+
+.terminalCont{
+  background: #30353A;
+  width: 100%;
+  height: 100%;
+  padding:12px 0 0 0;
+  padding: 12px;
+  overflow-y: auto;
+  resize: none;
+  border: none;
+  font-size: 14px;
+  line-height: 28px;
+  display: block;
+  color: gray;
+  font-family: "Consolas", "Courier New", "Courier";
+}
+
+.userEnteredText{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#terminalReslutsCont a{
+  color: #a9a9a9;
+  text-decoration: underline;
+}
+
+#terminalReslutsCont b{
+  color: #a9a9a9;
+  text-decoration: none;
+}
+
+#terminalReslutsCont a:hover{
+  text-decoration: underline;
+}
+
+#terminalTextInput{
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  font-family: "Consolas", "Courier New", "Courier";
+  width: 90%;
+  background: #30353A;
+  margin-left: -1px;
+}
+
+/* Make me responsive */
+@media screen and (max-width: 1000px){
+}
